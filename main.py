@@ -4,8 +4,8 @@ from aiohttp import web
 from app.UploadApp import UploadApp
 
 # can be move out to config file
-SERVER_IP = "0.0.0.0"
-SERVER_PORT = "3000"
+SERVER_IP = "127.0.0.1"
+SERVER_PORT = "80"
 LOGGING_LEVEL = logging.DEBUG
 LOGGING_FILE = "logs/uploader-log.log"
 
